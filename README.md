@@ -52,6 +52,7 @@ The following tools were used in this project:
 - Javascript
 - HTML
 - CSS
+- [Navigo](https://github.com/krasimir/navigo/blob/master/README.md)
 
 ## :memo: License
 

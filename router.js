@@ -1,7 +1,6 @@
 import Stories from './pages/stories.js';
 
 const router = new Navigo(null, true, '#');
-console.log(router);
 
 export default class RouterHandler {
   constructor() {
@@ -16,12 +15,11 @@ export default class RouterHandler {
       { path: '/show', page: Stories },
     ];
 
+    // prettier-ignore
     routes.forEach(({ path, page }) => {
-      router
-        .on(path, () => {
+      router.on(path, () => {
           page(path);
-        })
-        .resolve();
-    });
+        }).resolve();
+    })
   }
 }
