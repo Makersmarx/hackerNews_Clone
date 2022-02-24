@@ -16,7 +16,7 @@ export default function Story(story) {
           </a>
           |
           <span class="favorite">
-            <img class="heart" src="https://icon.now.sh/heart/ccc">
+          <i class="fas fa-heart"></i>
             Add To Favorites
           </span>
         </div>
